@@ -1,10 +1,11 @@
 import React from "react";
-import "./styles/app.scss";
+import Hero from "../Hero";
+
 
 function Home() {
     return (
-        <div className="app">
-            <h1>Welcome to React JS</h1>
+        <div>
+            <Hero/>
         </div>
     )
 }
