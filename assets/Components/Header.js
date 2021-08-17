@@ -1,5 +1,4 @@
 import React from "react";
-import Section from "./Section";
 import "./scss/Section.scss";
 import Nav from "./Nav";
 
@@ -19,7 +18,6 @@ function Header () {
                 </div>
             </div>
             <Nav/>
-            <Section/>
         </header>
     )
 }
