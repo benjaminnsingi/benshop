@@ -5,7 +5,6 @@ import Product from "../Product";
 import Promo from "../Promo";
 import Featured from "../Featured";
 import Contact from "../Contact";
-import Footer from "../Footer";
 
 
 function Home() {
@@ -17,7 +16,6 @@ function Home() {
             <Promo />
             <Featured />
             <Contact />
-            <Footer />
         </div>
     )
 }

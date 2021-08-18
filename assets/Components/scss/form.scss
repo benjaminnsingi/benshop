@@ -1,0 +1,59 @@
+/* Login Form */
+
+.login-form {
+   padding: 5rem 0;
+   max-width: 50rem;
+   margin: 5rem auto;
+
+   form {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+         margin-bottom: 1rem;
+      }
+
+      p {
+         margin-bottom: 2rem;
+      }
+
+      label {
+         margin-bottom: 1rem;
+      }
+
+      input {
+         border: 1px solid #ccc;
+         outline: none;
+         padding: 1.5rem 0;
+         text-indent: 1rem;
+         font-size: 1.6rem;
+         margin-bottom: 2rem;
+         border-radius: 0.5rem;
+
+         &::placeholder {
+            font-size: 1.6rem;
+            color: #222;
+         }
+      }
+
+      .buttons {
+         margin-top: 1rem;
+      }
+
+      button {
+         outline: none;
+         border: none;
+         font-size: 1.6rem;
+         padding: 1rem 3rem;
+         margin-right: 1.5rem;
+         background-color: var(--yellow);
+         color: #fff;
+         cursor: pointer;
+      }
+
+      p a {
+         color: dodgerblue;
+      }
+
+   }
+}
