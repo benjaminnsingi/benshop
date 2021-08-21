@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "assets"
+  ],
+  "exclude": ["node_modules"]
+}
