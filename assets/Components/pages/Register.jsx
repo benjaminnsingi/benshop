@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom"
 
 
@@ -18,8 +18,6 @@ const Register = () => {
         successMessage: ''
     });
 
-    const [records, setRecords] = useState([]);
-
     const handleInput = e => {
         const name = e.target.name;
         const value = e.target.value;
@@ -31,7 +29,6 @@ const Register = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        console.log(e.target.value)
     }
 
     return (

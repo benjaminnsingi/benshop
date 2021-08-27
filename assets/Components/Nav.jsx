@@ -1,8 +1,4 @@
 import React, {useState} from "react";
-import {AiOutlineUser} from "react-icons/ai";
-import {BsHeart, BsSearch} from "react-icons/bs";
-import {FiShoppingCart} from "react-icons/fi";
-import {BiMenuAltLeft} from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 
@@ -22,7 +18,7 @@ function Nav() {
                         <Link to="/" className="nav-link">Accueil</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="" className="nav-link">Boutique</Link>
+                        <Link to="/Product" className="nav-link">Boutique</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="" className="nav-link">À propos</Link>
@@ -32,17 +28,17 @@ function Nav() {
                     </li>
                     <li className="icons d-flex">
                         <Link to="/login" className="icon">
-                            <AiOutlineUser />
+                            <i className="far fa-user"/>
                         </Link>
                         <div className="icon">
-                            <BsSearch />
+                            <i className="fas fa-search"/>
                         </div>
                         <div className="icon">
-                            <BsHeart />
+                            <i className="far fa-heart"/>
                             <span className="d-flex">0</span>
                         </div>
                         <Link to="" className="icon">
-                            <FiShoppingCart />
+                            <i className="fas fa-shopping-cart"/>
                             <span className="d-flex">0</span>
                         </Link>
                     </li>
@@ -50,23 +46,23 @@ function Nav() {
 
                 <div className="icons d-flex">
                     <Link to="/login" className="icon">
-                        <AiOutlineUser/>
+                        <i className="far fa-user"/>
                     </Link>
                     <div className="icon">
-                        <BsSearch />
+                        <i className="fas fa-search"/>
                     </div>
                     <div className="icon">
-                        <BsHeart />
+                        <i className="far fa-heart"/>
                         <span className="d-flex">0</span>
                     </div>
                     <Link to="" className="icon">
-                        <FiShoppingCart />
+                        <i className="fas fa-shopping-cart"/>
                         <span className="d-flex">0</span>
                     </Link>
                 </div>
 
                 <div className="hamburger" onClick={handleClick}>
-                    <BiMenuAltLeft />
+                    <i className="fas fa-bars"/>
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../Hero";
-import Section from "../Section";
-import Product from "../Product";
-import Promo from "../Promo";
-import Featured from "../Featured";
-import Contact from "../Contact";
+import Hero from "../fragments/Hero";
+import Section from "../fragments/Section";
+import Product from "../fragments/Product";
+import Promo from "../fragments/Promo";
+import Featured from "../fragments/Featured";
+import Contact from "../fragments/Contact";
 
 
 function Home() {

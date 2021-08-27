@@ -1,9 +1,5 @@
 import React from "react";
 import "./scss/footer.scss";
-import { AiFillFacebook } from 'react-icons/ai';
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { AiFillTwitterCircle } from 'react-icons/ai'
-
 
 const Footer = () => {
     return (
@@ -24,9 +20,9 @@ const Footer = () => {
                     <a href="">Top Brands</a>
                 </div>
                 <div className="col d-flex">
-                    <span><AiFillFacebook /></span>
-                    <span><AiOutlineInstagram /></span>
-                    <span><AiFillTwitterCircle /></span>
+                    <span><i className="fab fa-facebook-f"/></span>
+                    <span><i className="fab fa-instagram"/></span>
+                    <span><i className="fab fa-twitter"/></span>
                 </div>
             </div>
         </footer>

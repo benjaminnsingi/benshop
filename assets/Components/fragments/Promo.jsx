@@ -1,5 +1,5 @@
 import React from "react";
-import "./scss/promo.scss";
+import "../scss/promo.scss";
 
 
 const Promo = () => {

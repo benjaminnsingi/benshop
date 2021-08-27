@@ -129,3 +129,32 @@
         }
     }
 }
+
+.all-products-shop {
+    display: flex;
+
+    li {
+        margin: 30px;
+    }
+}
+
+.all-products {
+
+    .top {
+
+        select {
+            font-family: "Poppins", sans-serif;
+            width: 20rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            appearance: none;
+            outline: none;
+        }
+
+    }
+
+}
+
+.product-select {
+    display: flex;
+}
