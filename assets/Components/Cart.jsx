@@ -1,116 +1,32 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Cart = () => {
     return (
-        <div className="product-center">
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-2.jpg" alt="" />
-                    </a>
+        <div className="col-4 col-md-6 col-sm-12">
+            <div className="product-card">
+                <div className="product-card-img">
+                    <img src="./images/product-2.jpg" alt="" />
                 </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$400</h4>
+                <div className="product-card-info">
+                    <div className="product-btn">
+                        <Link href="" className="btn-flat btn-hover btn-shop-now">shop now</Link>
+                        <button className="btn-flat btn-hover btn-cart-add">
+                            <i className="fas fa-shopping-cart"/>
+                        </button>
+                        <button className="btn-flat btn-hover btn-cart-add">
+                            <i className="far fa-heart"/>
+                        </button>
+                    </div>
+                    <div className="product-card-name">
+                        JBL E55BT KEY BLACK
+                    </div>
+                    <div className="product-card-price">
+                        <span><del>400</del></span>
+                        <span className="curr-price">300</span>
+                    </div>
                 </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
             </div>
-
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-4.jpg" alt="" />
-                    </a>
-                </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$500</h4>
-                </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
-            </div>
-
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-3.jpg" alt="" />
-                    </a>
-                </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$700</h4>
-                </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
-            </div>
-
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-1.jpg" alt="" />
-                    </a>
-                </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$700</h4>
-                </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
-            </div>
-
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-2.jpg" alt="" />
-                    </a>
-                </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$400</h4>
-                </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
-            </div>
-
-            <div className="product-item">
-                <div className="overlay">
-                    <a className="product-thumb">
-                        <img src="./images/product-4.jpg" alt="" />
-                    </a>
-                </div>
-                <div className="product-info">
-                    <span>MEN'S CLOTHES</span>
-                    <a href="">Quis Nostrud Exercitation</a>
-                    <h4>$400</h4>
-                </div>
-                <ul className="icons">
-                    <li><i className="far fa-heart"/></li>
-                    <li><i className="fas fa-search"/></li>
-                    <li><i className="fas fa-shopping-cart"/></li>
-                </ul>
-            </div>
-
         </div>
     )
 }
