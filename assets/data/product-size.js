@@ -1,4 +1,4 @@
-const Size = [
+const size = [
 
     {
          display: "S",
@@ -23,4 +23,4 @@ const Size = [
 
 ]
 
-export default Size;
+export default size;
