@@ -278,6 +278,12 @@ ul.devided > li:last-child {
    padding: 20px;
 }
 
+.title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
 
 @media only screen and (max-width: 1280px) {
 
@@ -378,6 +384,252 @@ ul.devided > li:last-child {
 
 
 }
+
+
+.swiper {
+   width: 100%;
+   height: 100%;
+}
+
+.swiper-slide {
+   background-position: center;
+   background-size: cover;
+}
+
+.swiper-slide img {
+   display: block;
+   width: 100%;
+}
+
+/* Start product */
+.section {
+   padding: 60px 0;
+}
+
+.section-header,
+.section-footer {
+   text-align: center;
+   margin: 80px 0 70px;
+   text-transform: uppercase;
+}
+
+.section-header h2 {
+   font-size: 40px;
+}
+
+.product-card {
+   background-color: var(--main-bg-color);
+   transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+   background-color: var(--second-bg-color);
+}
+
+.product-card-img {
+   height: 300px;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.product-card-img img {
+   max-height: 100%;
+   transition: all 0.3s ease-in-out;
+}
+
+.product-card-img img:nth-child(2) {
+   display: none;
+}
+
+.product-card:hover .product-card-img img:nth-child(1) {
+   display: none;
+}
+
+.product-card:hover .product-card-img img:nth-child(2) {
+   display: block;
+}
+
+.product-card-info {
+   padding: 20px;
+   text-align: center;
+   position: relative;
+}
+
+.product-card-name {
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.product-card-price {
+   font-size: 15px;
+}
+
+.product-card-price .curr-price {
+   margin-left: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   color: var(--red);
+}
+
+.product-btn {
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   visibility: hidden;
+   transform: translateY(20px);
+   transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover .product-btn {
+   opacity: 1;
+   visibility: visible;
+   transform: translateY(0);
+}
+
+.product-btn > * ~ * {
+   margin-left: 5px;
+}
+
+.btn-shop-now,
+.btn-cart-add {
+   font-size: 15px;
+   padding: 5px 10px;
+   line-height: 17px;
+}
+
+.btn-hover {
+   transition: all 0.3s ease-in-out;
+}
+
+.btn-flat {
+   display: inline-block;
+   border: 2px solid var(--btn-border-color);
+   background-color: var(--btn-bg);
+   color: var(--btn-color);
+   padding: 4px 4px;
+   font-size: 15px;
+   outline: 0;
+   font-weight: 600;
+   text-transform: uppercase;
+   transition: all 0.3s ease-in-out;
+}
+
+.btn-flat-special {
+   display: inline-block;
+   border: 2px solid var(--btn-border-color);
+   background-color: var(--btn-bg);
+   color: var(--btn-color);
+   padding: 15px 35px;
+   font-size: 15px;
+   outline: 0;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+button {
+   cursor: pointer;
+}
+
+.sp-item-name {
+   font-size: 55px;
+   font-weight: 600;
+   margin-bottom: 30px;
+}
+
+.sp-item-description {
+   margin-bottom: 60px;
+   text-align: justify;
+}
+
+/* End product */
+
+
+/* Start Footer */
+
+footer {
+   padding: 100px 0;
+}
+
+.footer-head {
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+footer ul li {
+   margin-bottom: 10px;
+}
+
+.contact-header {
+   text-align: center;
+   font-weight: 600;
+   margin-bottom: 30px;
+   font-size: 38px;
+}
+
+.contact-socials {
+   display: flex;
+   justify-content: center;
+}
+
+.contact-socials a {
+   font-size: 30px;
+   margin: 0 10px;
+}
+
+.contact-socials a:hover {
+   color: var(--grey);
+}
+
+
+.menu li a {
+   text-transform: capitalize;
+   transition: transform 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+   color: var(--red);
+   transform: translateX(10px);
+}
+
+.subscribe {
+   position: relative;
+   margin-top: 20px;
+}
+
+.subscribe input {
+   width: 100%;
+   height: 50px;
+   outline: 0;
+   border: 0;
+   padding: 0 30px;
+}
+
+.subscribe button {
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   outline: 0;
+   border: 0;
+   background-color: var(--red);
+   color: var(--btn-color);
+   padding: 10px;
+   text-transform: uppercase;
+}
+
+.subscribe button:hover {
+   background-color: var(--black);
+}
+
+
+/* End Footer */
 
 
 

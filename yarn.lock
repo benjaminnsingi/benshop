@@ -2192,6 +2192,13 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+dom7@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-4.0.0.tgz#69c8fb9b170c92d64f385fdc37f81456e82b80a1"
+  integrity sha512-xOJ0LAHFwktyj8Xljz4R2wzRI+Y9mR0plkMP0WlqtwqAkqn/vbdAyRifiW/w8mXe17LGktntcAwsQ5fKVDBNYg==
+  dependencies:
+    ssr-window "^4.0.0"
+
 domelementtype@^2.0.1, domelementtype@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
@@ -2538,20 +2545,6 @@ fork-ts-checker-webpack-plugin@^6.0.0:
     schema-utils "2.7.0"
     semver "^7.3.2"
     tapable "^1.0.0"
-
-format-currency@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/format-currency/-/format-currency-1.0.0.tgz#f907943f390c2ff36be2a51b0a6fb25ad3fe01c8"
-  integrity sha1-+QeUPzkML/Nr4qUbCm+yWtP+Acg=
-  dependencies:
-    format-num "^1.0.0"
-
-format-num@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/format-num/-/format-num-1.0.0.tgz#a0314cc47301212a061e76cf15ead8e614207077"
-  integrity sha1-oDFMxHMBISoGHnbPFerY5hQgcHc=
-  dependencies:
-    parse-num "^1.0.0"
 
 forwarded@0.2.0:
   version "0.2.0"
@@ -3488,18 +3481,6 @@ normalize-url@^6.0.1:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
-nouislider-react@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/nouislider-react/-/nouislider-react-3.4.1.tgz#cb0fc3d77ed8f7818cf52b614f0d67f3e16275d4"
-  integrity sha512-ryVbcApz6sELqPPiWwEOq5pkwhHYoNSxmGpP/HXHptpB6A6XedMrM/BP5W/rHRtBBaFK7vJTCTTma6gKviEiNg==
-  dependencies:
-    nouislider "^14.6.3"
-
-nouislider@^14.6.3:
-  version "14.7.0"
-  resolved "https://registry.yarnpkg.com/nouislider/-/nouislider-14.7.0.tgz#a71db0587c92567b6da1df57d251d3696d942362"
-  integrity sha512-4RtQ1+LHJKesDCNJrXkQcwXAWCrC2aggdLYMstS/G5fEWL+fXZbUA9pwVNHFghMGuFGRATlDLNInRaPeRKzpFQ==
-
 npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
@@ -3675,11 +3656,6 @@ parse-json@^5.0.0:
     error-ex "^1.3.1"
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
-
-parse-num@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/parse-num/-/parse-num-1.0.0.tgz#abd8b339c157a23d3ef87953ceb11f1dd08059d0"
-  integrity sha1-q9izOcFXoj0++HlTzrEfHdCAWdA=
 
 parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
@@ -4698,6 +4674,11 @@ spdy@^4.0.2:
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
 
+ssr-window@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.0.tgz#4ee82fc360c5f88a022f321740bcfec59ada1a61"
+  integrity sha512-qCg6wJNeGNTVcPK2KFNfwtHU1gA3UZDZdxogu+Ys5+Ue5PMOENxUb7sscpAWWo4mWOBkJRCwQ50IlyA7qZ0hxw==
+
 stable@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
@@ -4832,6 +4813,14 @@ svgo@^2.3.0:
     css-tree "^1.1.2"
     csso "^4.2.0"
     stable "^0.1.8"
+
+swiper@^7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-7.0.5.tgz#80e7631798811e95c00aecab68d12a74e84896c0"
+  integrity sha512-ERFXjBwUZ4ZDYjGbYjuMBfwy/s80zVCDkf229NG7ycptgJ4r5WgOh6WCILf/1iMwkV8afxYZW7QUru/b0bdD6g==
+  dependencies:
+    dom7 "^4.0.0"
+    ssr-window "^4.0.0"
 
 tapable@^1.0.0:
   version "1.1.3"
