@@ -1,13 +1,14 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {BrowserRouter as Router, Link} from "react-router-dom";
 import {BiChevronDown} from "react-icons/bi";
+import Routes from "../routes/Routes";
 
 const Nav = () => {
     return (
         <div className="bg-second">
             <div className="bottom-header container">
                 <ul className="main-menu">
-                    <li><Link to="#">Accueil</Link></li>
+                    <li><Link to="/">Accueil</Link></li>
                     <li className="mega-dropdown">
                         <Link to="#">Boutique<BiChevronDown className="BiChevronDown"/></Link>
                         <div className="mega-content">
@@ -16,7 +17,7 @@ const Nav = () => {
                                     <div className="box">
                                         <h3>Categories</h3>
                                         <ul>
-                                            <li><Link to="">Wireless</Link></li>
+                                            <li><Link to="/products">Wireless</Link></li>
                                             <li><Link to="">Inear headphone</Link></li>
                                             <li><Link to="">Overear headphone</Link></li>
                                         </ul>
@@ -26,7 +27,7 @@ const Nav = () => {
                                     <div className="box">
                                         <h3>Categories</h3>
                                         <ul>
-                                            <li><Link to="">Wireless</Link></li>
+                                            <li><Link to="/products">Wireless</Link></li>
                                             <li><Link to="">Inear headphone</Link></li>
                                             <li><Link to="">Overear headphone</Link></li>
                                         </ul>
@@ -36,7 +37,7 @@ const Nav = () => {
                                     <div className="box">
                                         <h3>Categories</h3>
                                         <ul>
-                                            <li><Link to="">Wireless</Link></li>
+                                            <li><Link to="/products">Wireless</Link></li>
                                             <li><Link to="">Inear headphone</Link></li>
                                             <li><Link to="">Overear headphone</Link></li>
                                         </ul>
